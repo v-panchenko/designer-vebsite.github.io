@@ -1,0 +1,28 @@
+/* PROJECTS VISUAL */
+.projects .container{
+    margin-top: 240px;
+}
+.project--visual {
+    border-radius: 4px;
+    width: 400px;
+    height: 408px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.projects__wrapper {
+    margin-top: 64px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+/* PROJECTS PERSONAL */
+.project--personal {
+    border-radius: 4px;
+    width: 400px;
+    height: 560px;
+    object-fit: cover;
+    object-position: center;
+}

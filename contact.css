@@ -1,0 +1,14 @@
+
+.contact {
+    margin-top: 124px;
+    margin-bottom: 124px;
+}
+.contact .container {
+  max-width: 400px;
+  text-align: center;
+
+}
+.contact__text {
+    max-width: 521px;
+    margin-bottom: 48px;
+}

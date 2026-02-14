@@ -1,0 +1,32 @@
+
+.welcome {
+    margin-top: 130px;
+}
+.welcome__img {
+    margin-right: 102px;
+
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+}
+.welcome .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.welcome__desc {
+    max-width: 500px;
+}
+
+.welcome__title {
+    margin-top: 0px;
+    margin-bottom: 24px;
+}
+
+.welcome__text {
+    max-width: 392px;
+    margin-bottom: 88px;
+}
+

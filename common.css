@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+/* Common font-weight
+    SemiBold 600
+    Bold 700
+    ExtraBold 800
+*/
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+
+    font-family: "Manrope", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: -0.03em;
+    color: #959595;
+
+    background: #202020;
+}
+img {
+    width: 100%;
+}
+h1,h2 { 
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    color: #dedede;
+}
+h1 {
+    font-size: 54px;
+    line-height: 1.19;
+
+}
+h2 {
+    font-size: 36px;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    color: #dedede;
+    transition: opacity 0.3s;
+}
+a:hover {
+    opacity: 0.6;
+}
+.container {
+    max-width: 1248px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.btn {
+    border-radius: 4px;
+    padding: 16px 48px;
+    width: 293px;
+    height: 57px;
+    background: #9d9d9d;
+    color: #fff;
+    transition: background-color 0.3s;
+}
+.btn:hover {
+    opacity: 1;
+    background-color: #7A7A7A;
+}
+.btn::before {
+  content: url(images/mail.svg);
+  margin-right: 16px;
+}
+.burger-menu {
+  display: none;
+}
+.burger-menu__icon {
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 40px;
+    right: 60px;
+    width: 100px;
+    height: 100px;
+    background-color: #7A7A7A;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.4s ease;
+}
+.back-to-top img {
+    height: 50px;
+}
+.back-to-top.show {
+    opacity: 0.6;
+    pointer-events: auto;
+}

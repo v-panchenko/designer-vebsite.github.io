@@ -1,0 +1,20 @@
+.footer {
+    padding: 49px auto;
+    border-top: 1px solid #696969;
+}
+.footer span {
+    color: #ececec;
+}
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.socials {
+    display: flex;
+    gap: 43px;
+}
+.social__img {
+    width: 24px;
+    height: 24px;
+}
